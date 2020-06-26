@@ -97,6 +97,8 @@ alias np='nano -w PKGBUILD'
 alias more=less
 alias pacup="sudo pacman -Syu"
 alias config='/usr/bin/git --git-dir=/home/shuyu/.cfg/ --work-tree=/home/shuyu'
+alias doom='~/.emacs.d/bin/doom'
+alias meditate='cd ~/Downloads/lisp-koans/ && sh meditate-linux.sh clisp'
 
 xhost +local:root > /dev/null 2>&1
 
