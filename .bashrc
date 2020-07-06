@@ -97,8 +97,8 @@ alias np='nano -w PKGBUILD'
 alias more=less
 alias pacup="sudo pacman -Syu"
 alias config='/usr/bin/git --git-dir=/home/shuyu/.cfg/ --work-tree=/home/shuyu'
-alias doom='~/.emacs.d/bin/doom'
-alias meditate='cd ~/Downloads/lisp-koans/ && sh meditate-linux.sh clisp'
+alias sshcamvi='ssh sxie@172.28.0.22'
+alias emacs='TERM=xterm-256color emacs'
 
 xhost +local:root > /dev/null 2>&1
 
@@ -141,3 +141,4 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
+
